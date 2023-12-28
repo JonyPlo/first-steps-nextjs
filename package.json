@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "_comentario": "Agregar la bandera --turbo en el script dev habilita el uso de Turbopack que es el reemplazo de webpack, es una opcion mucho mas rápida y actualmente solo esta habilitado para el modo desarrollo, no en producción",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
