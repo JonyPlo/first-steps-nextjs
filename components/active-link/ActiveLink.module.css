@@ -1,0 +1,10 @@
+/* @apply es de Tailwind para aplicar estilos de este framework directamente al
+archivo css y evitar usar la sintaxis tradicional de css */
+
+.link {
+  @apply hover:underline hover:text-blue-400 mr-2 transition-all;
+}
+
+.active-link {
+  @apply text-blue-500;
+}
